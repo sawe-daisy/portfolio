@@ -1,0 +1,138 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+body {
+  max-resolution: 0;
+  line-height: 1.5;
+  font-size: 20px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: border-box;
+}
+::before,
+::after {
+  box-sizing: border-box;
+}
+.section {
+  background-color: #f2f2fc;
+  min-height: 100vh;
+  display: block;
+  padding: 0 30px;
+}
+.aside .nav li a {
+  display: block;
+  padding-top: 16px;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 45px;
+  border-bottom: 1px solid #e8dfec;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.main-content {
+  padding-left: 270px;
+}
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+.aside {
+  width: 250px;
+  background-color: aqua;
+  position: fixed;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  border-right: 1px solid #e8dfec;
+}
+.aside .logo {
+  background-color: chocolate;
+  padding: 30px 0;
+}
+.aside .nav {
+  background-color: chocolate;
+  list-style: none;
+  margin: 80px 0;
+}
+.home .intro .social-links {
+  scroll-margin-top: 25px;
+}
+.home .intro .social-links a {
+  height: 35px;
+  width: 35px;
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+  margin: 0 4px;
+  border-radius: 50%;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.home .intro .social-links a:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.aside .copyright-text {
+  background-color: chocolate;
+  font-size: 13px;
+}
+.aside .logo a {
+  font-size: 30px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+}
+.aside .nav li a:hover {
+  padding-left: 5px;
+}
+.aside .nav li a .fa {
+  margin-right: 5px;
+}
+.aside .logo a::before {
+  border-top: 4px solid #ec1839;
+  border-left: 4px solid #ec1839;
+}
+.aside .logo a::after {
+  border-top: 4px solid #ec1839;
+  border-left: 4px solid #ec1839;
+}
+.aside .logo a::hover {
+  border-top: 4px solid #ec1839;
+  border-left: 4px solid #ec1839;
+}
+.shadow-dark {
+  -webkit-box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+.home {
+  min-height: 100vh;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: aqua;
+}
+.home .intro img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.home .intro {
+  text-align: center;
+}
+.home .intro h1 {
+  font-size: 30px;
+  color: #302e4d;
+  font-family: sans-serif;
+  font-weight: 700;
+  margin: 20px;
+}
+.home .intro p {
+  font-size: 16px;
+  font-weight: 500;
+}

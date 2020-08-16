@@ -1,0 +1,222 @@
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+.section .container {
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+.section-title {
+  flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 60px;
+}
+.section-title h2 {
+  font-size: 40px;
+  color: #302e4d;
+  font-family: sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+.section-title h2 body {
+  max-resolution: 0;
+  line-height: 1.5;
+  font-size: 20px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: border-box;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-right: 15px;
+  position: relative;
+}
+::before,
+::after {
+  box-sizing: border-box;
+}
+.section {
+  background-color: aqua;
+  min-height: 100vh;
+  display: block;
+  padding: 0 30px;
+}
+.aside .nav li a {
+  display: block;
+  padding-top: 16px;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 45px;
+  border-bottom: 1px solid #e8dfec;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.main-content {
+  padding-left: 270px;
+}
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+.aside {
+  width: 250px;
+  background-color: aqua;
+  position: fixed;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  border-right: 1px solid #e8dfec;
+}
+.aside .logo {
+  background-color: chocolate;
+  padding: 30px 0;
+}
+.aside .nav {
+  background-color: chocolate;
+  list-style: none;
+  margin: 80px 0;
+}
+.aside .copyright-text {
+  background-color: chocolate;
+  font-size: 13px;
+}
+.aside .logo a {
+  font-size: 30px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+}
+.aside .nav li a:hover {
+  padding-left: 5px;
+}
+.aside .nav li a .fa {
+  margin-right: 5px;
+}
+.aside .logo a::before {
+  border-top: 4px solid #ec1839;
+  border-left: 4px solid #ec1839;
+}
+.aside .logo a::after {
+  border-top: 4px solid #ec1839;
+  border-left: 4px solid #ec1839;
+}
+.about .about-content {
+  background-color: aqua;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+}
+.about .about-content .about-text {
+  font-size: 18px;
+  background-color: aqua;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 50%;
+}
+.about .about-content .about-text {
+  font-size: 18px;
+  background-color: aqua;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 50%;
+}
+.about .about-content .about-text h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: #302e4d;
+}
+.about .about-content .about-text p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #302e4d;
+}
+.about .about-content .personal-info .info-item {
+  -ms-flex: 0 0 60%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.about .about-content .personal-info {
+  -ms-flex: 0 0 60%;
+  flex: 0 0 60%;
+  max-width: 60%;
+  margin-top: 40px;
+}
+.about .about-content .personal-info .info-item p {
+  font-weight: 600;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #302e4d;
+  border-bottom: 1px solid #e8dfec;
+}
+.about .about-content .skills {
+  -ms-flex: 0 0 40%;
+  flex: 0 0 40%;
+  max-width: 40%;
+  margin-top: 40px;
+}
+.about .about-content .personal-info .info-item p span {
+  font-weight: 400;
+  color: #504e70;
+  margin-left: 4px;
+  display: inline-block;
+}
+.about .about-content .skills {
+  -ms-flex: 0 0 40%;
+  flex: 0 0 40%;
+  max-width: 40%;
+  margin-top: 40px;
+}
+.about .about-content .skills .skill-item {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.about .about-content .skills .skill-item h5 {
+}
+.about .about-content .skills .skill-item .progress {
+  background-color: #e3e3e3;
+  height: 15px;
+  border-radius: 4px;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+.about .about-content .skills .skill-item .progress .progress-in {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100px;
+}
+.about .about-content .skills .skill-item .skill-percent {
+  display: none;
+}
+.about .about-content .education {
+  background-color: aqua;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding-top: 30px;
+}
+.about .about-content .hobbies {
+  background-color: aqua;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding-top: 30px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+.about .about-content .res p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #302e4d;
+}
