@@ -9,3 +9,9 @@
 </td>
 </tr>
 </table>
+
+### Development
+
+Want to contribute? Great!
+
+To fix a bug or enhance an existing module, follow these steps:
